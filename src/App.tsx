@@ -2,9 +2,10 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="h-screen flex items-center justify-center bg-gray-100">
+      <h1 className="text-3xl font-bold text-red-600">
+        Hello Tailwind + React + TS!
+      </h1>
     </div>
   );
 }
